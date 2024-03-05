@@ -95,7 +95,7 @@ rm -rf /usr/share/nginx/html/*
 ## Step 6: Verify Functionality
 #### Refresh the webpage. If everything is properly configured, you will be able to see the new webpage you've added! 
 
-### Finish! <br> Congratulations you've setup and configured CodeDeploy and CodePipeline!
+### Finish! Congratulations you've setup and configured CodeDeploy and CodePipeline!
 
 ## Step 6: 
 #### 
