@@ -11,6 +11,8 @@
 
 #### Install the CodeDeploy Agent using command: 
 
+#### Verify functionality by accessing the instance IP. YOu should see a default NGINX webpage.
+
 ## Step 3: Create CodeDeploy Application
 #### Head to CodeDeploy > Applications > Create Application
 
@@ -66,8 +68,10 @@ service nginx stop
 # Remove existing webpage files
 rm -rf /usr/share/nginx/html/*
 ```
+## Step 6: Verify Functionality
+#### Refresh the webpage. If everything is properly configured, you will be able to see the new webpage you've added! 
 
-
+## Finish! congratualtions you've setup and configured CodeDeploy and CodePipeline!
 
 ## Step 6: 
 #### 
