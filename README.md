@@ -104,7 +104,8 @@ rm -rf /usr/share/nginx/html/*
 #### 
 
 ## Notes
-*
+* Make sure to install the CodeDeploy agent on EC2 instance.
+* Change `destination` parameter in the `appspec.yml` file based on the OS/distributon + scripts.
 
 ## Reference
 * 
