@@ -7,11 +7,35 @@
 #### 
 
 ## Step 2: Setup EC2 instance
-#### Create an EC2 instance in a public subnet. Configure the instance with the EC2 CodeDeploy Role instance profile. Install the NGINX webserver. To do so, use commands: `` ......... Edit the EC2's security group to allow Port 80 from anywhere. 
+#### Create an EC2 instance in a public subnet. Configure the instance with the EC2 CodeDeploy Role instance profile. 
 
-#### Install the CodeDeploy Agent using command: 
+#### Install the NGINX webserver. Use commands: 
+```
+sudo yum update
+sudo yum install nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx
 
-#### Verify functionality by accessing the instance IP. YOu should see a default NGINX webpage.
+# Check status:
+sudo systemctl status nginx
+```
+
+#### Edit the EC2's security group to allow Port 80 from anywhere. 
+
+#### Install the CodeDeploy Agent if needed using commands: 
+```
+wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install
+chmod +x install
+sudo ./install auto
+sudo systemctl start codedeploy-agent
+sudo systemctl enable codedeploy-agent
+
+# Check status:
+sudo systemctl status codedeploy-agent
+
+```
+
+#### Verify functionality by accessing the instance IP. You should see a default NGINX webpage.
 
 ## Step 3: Create CodeDeploy Application
 #### Head to CodeDeploy > Applications > Create Application
@@ -71,7 +95,7 @@ rm -rf /usr/share/nginx/html/*
 ## Step 6: Verify Functionality
 #### Refresh the webpage. If everything is properly configured, you will be able to see the new webpage you've added! 
 
-## Finish! Congratulations you've setup and configured CodeDeploy and CodePipeline!
+### Finish! <br> Congratulations you've setup and configured CodeDeploy and CodePipeline!
 
 ## Step 6: 
 #### 
