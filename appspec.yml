@@ -9,10 +9,10 @@ files:
    destination: /usr/share/nginx/html
 hooks:
  BeforeInstall:
-   - location: AWS-CodePipeline-and-CodeDeploy/scripts/before_install.sh
+   - location: scripts/before_install.sh
      timeout: 300
      runas: root
  AfterInstall:
-   - location: AWS-CodePipeline-and-CodeDeploy/scripts/after_install.sh
+   - location: scripts/after_install.sh
      timeout: 300 
      runas: root
