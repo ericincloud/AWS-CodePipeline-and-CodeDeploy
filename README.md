@@ -1,5 +1,5 @@
 # AWS-CodePipeline-and-CodeDeploy
-#### AWS CodeDeploy and CodePipeline allows developers to conduct Continuous Integration, Continuous Delivery, and Continuous Deployment (CI/CD). With each change or commit within a GitHub repsoitory, respective instances are automatically upadated to reflect/mirror the current respository, making development more efficient and effective. 
+#### AWS CodeDeploy and CodePipeline allows developers to conduct Continuous Integration, Continuous Delivery, and Continuous Deployment (CI/CD). With each change or commit within a GitHub repository, respective instances are automatically updated to reflect/mirror the current repository, making development more efficient and effective.
 
 ## Architectural Diagram
 
