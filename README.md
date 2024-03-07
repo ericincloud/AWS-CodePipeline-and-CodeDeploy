@@ -127,6 +127,8 @@ service nginx start
 ## Step 6: Verify Functionality
 #### Refresh the webpage. If everything is properly configured, you will be able to see the new webpage you've added! Any changes made to the GitHub repository will be updated automatically to the instance as well.
 
+![CDWebpage](https://github.com/ericincloud/AWS-CodePipeline-and-CodeDeploy/assets/144301872/f092eb00-c2cc-471b-ac93-9061bbe40e64)
+
 ### Finish! Congratulations you've setup and configured CodeDeploy and CodePipeline!
 
 ## Notes
