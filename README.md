@@ -34,15 +34,13 @@ sudo systemctl status nginx
 
 #### Install the CodeDeploy Agent using commands: 
 ```
-wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/latest/install
-chmod +x install
+sudo yum install -y ruby wget
+wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install
+chmod +x ./install
 sudo ./install auto
-sudo systemctl start codedeploy-agent
-sudo systemctl enable codedeploy-agent
 
 # Check status:
-sudo systemctl status codedeploy-agent
-
+sudo service codedeploy-agent status
 ```
 
 #### Verify functionality by accessing the instance IP. You should see a default NGINX webpage.
