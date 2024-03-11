@@ -1,5 +1,5 @@
-# AWS-CodePipeline-and-CodeDeploy
-#### AWS CodeDeploy and CodePipeline allows developers to conduct Continuous Integration, Continuous Delivery, and Continuous Deployment (CI/CD). With each change or commit within a GitHub repository, respective instances are automatically updated to reflect/mirror the current repository, making development more efficient and effective.
+# AWS-CodePipeline-and-CodeDeploy CI/CD
+#### AWS CodeDeploy and CodePipeline CI/CD allows developers to conduct Continuous Integration, Continuous Delivery, and Continuous Deployment (CI/CD). With each change or commit within a GitHub repository, respective instances are automatically updated to reflect/mirror the current repository, making development more efficient and effective.
 
 ## Architectural Diagram
 
@@ -127,7 +127,7 @@ service nginx start
 
 ![CDWebpage](https://github.com/ericincloud/AWS-CodePipeline-and-CodeDeploy/assets/144301872/f092eb00-c2cc-471b-ac93-9061bbe40e64)
 
-### Finish! Congratulations you've setup and configured CodeDeploy and CodePipeline!
+### Finish! Congratulations you've setup and configured CodeDeploy and CodePipeline CI/CD!
 
 ## Notes
 * Make sure to install the CodeDeploy agent on EC2 instance.
