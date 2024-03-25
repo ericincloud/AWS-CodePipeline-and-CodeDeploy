@@ -57,7 +57,7 @@ sudo service codedeploy-agent status
 ![DepGroup5](https://github.com/ericincloud/AWS-CodePipeline-and-CodeDeploy/assets/144301872/3b1d1f31-29fd-4d9c-8509-fce1f126b7c6)
 
 ## Step 4: Create Pipeline
-#### Connect to Github repository. Paste in your repo name if it does not pop up on the selection menu. > No filter> > Skip build stage > Select CodeDeploy for as the deploy provider and select the CodeDeploy Application created from Step 3. > Create pipeline. 
+#### Connect to Github repository. Paste in your repo name if it does not pop up on the selection menu. > No filter > Skip build stage > Select CodeDeploy for as the deploy provider and select the CodeDeploy Application created from Step 3. > Create pipeline. 
 
 ![pipeline1](https://github.com/ericincloud/AWS-CodePipeline-and-CodeDeploy/assets/144301872/292393b2-901d-484e-a636-1d96b7825ad9)
 ![pipeline2](https://github.com/ericincloud/AWS-CodePipeline-and-CodeDeploy/assets/144301872/8434d621-edd6-401b-a007-272691f51d99)
